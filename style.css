@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+  width: 110px;
+}
+.logo img{
+  width: 100%;
+  margin: 5px 22px;
+}
+.nav-images{
+  display: flex;
+  width: 247px;
+  height: 33px;
+  column-gap: 5px;
+}
+.nav-images img{
+  width: 100%;
+}
+.nav-right{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.nav-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 113px;
+  background-color: green;
+  border-bottom: 1px solid white;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+}
+.list{
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.list li:hover{
+  text-decoration: underline;
+}
+.bg-1 img{
+  width: 100%;
+  margin-top: 113px;
+}
+
+.bg-1{
+  position: relative;
+}
+.q-1{
+  position: absolute;
+  top: 273px;
+  left: 116px;
+  font-weight: 1000;
+  color: white;
+}
+.btn{
+  font-size: 20px;
+  border: 2px solid;
+  padding: 10px 10px 5px 18px;
+  border-radius: 30px;
+  width: 223px;
+  font-weight: 1000;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.big{
+  font-size: 63px;
+}
+
+.bg-2 img{
+  width: 100%;
+  position: relative;
+}
+.bg-2{
+  height: 500px;
+  margin-top: -4px;
+  position: relative;
+}
+.in-1{
+  position: absolute;
+  height: 163px;
+  width: 600px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 10px 10px 30px 10px;
+  background-color: rgba(10, 91, 43, 0.8);
+  top: 50%;
+  left: 470px;
+}
+.one{
+  font-size: 40px;
+}
+.two{
+  font-size: 17px;
+  margin: 1px 0px 14px 0px;
+}
+#btn-in{
+  font-size: 15px;
+  border: 2px solid;
+  padding: 3px 30px 7px 30px;
+  font-size: 19px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.bg-3 img{
+  width: 100%;
+  position: relative;
+  margin-top: -8px;
+}
+.bg-3{
+  margin-top: 236px;
+  position: relative;
+}
+.in-2{
+  position: absolute;
+  height: 163px;
+  width: 600px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 10px 10px 30px 10px;
+  background-color: rgba(10, 91, 43, 0.8);
+  top: 40%;
+  left: 470px;
+}
+
+.footer{
+  height: 135px;
+  background: #3e3e3e;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin-top: -4px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+}
+.last{
+  display: flex;
+  column-gap: 30px;
+}
+.last-last{
+  margin-top: -63px;
+  margin-left: 50px;
+}
